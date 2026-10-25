@@ -1,0 +1,28 @@
+Navegador FCM v0.2.9 — 24/10/2026
+
+Geometría:
+- 50 trazos rojos CAD idénticos a los anteriores, solo traslación
+  dx = +218,475211 pt, dy = -63,758539 pt
+  error máximo de ajuste 0,000162 pt
+- Escala gráfica PDF original: 172,2489 puntos para 20 metros.
+- A1: 28 etiquetas del catálogo; A129 sin puerta sigue sin anclaje.
+- PDF A1: sin marca «As1» ni texto nominal «1:500».
+- PDF A2 anterior: sin marca «As1»; mantiene S4 y As2.
+
+Motor:
+- 49/49 pruebas automatizadas (Node, npm test): aprobadas.
+- Solo 4 conectores verticales: S1, S3, S4 y AS2.
+- Ruta sin escalones: AS2 únicamente.
+- 62 destinos seleccionables, 28 en A1 y 34 en A2.
+- Importación idempotente de JSON anteriores, con migración A1 y sin AS1.
+
+Interfaz aislada en Chromium:
+- Smartphone 390px: OK, 28 etiquetas A1 superpuestas al CAD.
+- Desktop 1300px: OK, 62 selectores.
+- 0 errores JS en ambas simulaciones.
+- Navegación completa servida en red de Windows y prueba táctil física: pendientes.
+- Compilación React/Vite: no ejecutada por falta de dependencias instaladas.
+
+Precauciones:
+- Los itinerarios siguen sin aprobación para orientación pública.
+- El gráfico A2 no tiene calibración en metros.

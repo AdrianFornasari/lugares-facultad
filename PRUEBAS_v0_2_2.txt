@@ -1,0 +1,9 @@
+Verificaciones de v0.2.2
+========================
+Motor: node --test tests/motor.test.mjs -> 12/12 correctamente.
+Sintaxis: node --check shared/app.js -> correcta.
+Interfaz: Chromium con recursos locales embebidos (sin acceso a localhost por política del entorno).
+Viewport móvil 390 x 844: origen/destino visibles, preferencias contraídas, un solo selector de alternativa, indicaciones antes del plano, plano inicialmente oculto.
+Interacciones probadas: alternativa siguiente y anterior; filtro sin escaleras 2 alternativas; abrir/cerrar preferencias; abrir/cerrar plano; entrar y salir de administrador restaurando el estado cerrado del plano.
+Escritorio 1300 x 900: plano visible, alternativas completas y preferencias visibles.
+No se probó este ZIP con BAT en Windows desde este entorno. La compilación npm/React-Vite queda pendiente de ejecutar en la PC del usuario.

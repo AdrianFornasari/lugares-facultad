@@ -1,0 +1,206 @@
+
+> navegador-fcm@0.2.5 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: progreso por planta conserva las asignaciones confirmadas y excluye A223/A225
+ok 1 - progreso por planta conserva las asignaciones confirmadas y excluye A223/A225
+  ---
+  duration_ms: 12.041209
+  type: 'test'
+  ...
+# Subtest: asignación verificada, progreso y deshacer preservan las rutas
+ok 2 - asignación verificada, progreso y deshacer preservan las rutas
+  ---
+  duration_ms: 29.59154
+  type: 'test'
+  ...
+# Subtest: asignación sin casilla no se declara verificada
+ok 3 - asignación sin casilla no se declara verificada
+  ---
+  duration_ms: 4.236243
+  type: 'test'
+  ...
+# Subtest: rechaza doble vínculo, planta incorrecta, cruces y códigos sin asignación
+ok 4 - rechaza doble vínculo, planta incorrecta, cruces y códigos sin asignación
+  ---
+  duration_ms: 2.463074
+  type: 'test'
+  ...
+# Subtest: desvincular y deshacer restaura exactamente los datos previos
+ok 5 - desvincular y deshacer restaura exactamente los datos previos
+  ---
+  duration_ms: 1.725049
+  type: 'test'
+  ...
+# Subtest: ediciones del usuario se conservan y el ZIP no debe tocar la geometría
+ok 6 - ediciones del usuario se conservan y el ZIP no debe tocar la geometría
+  ---
+  duration_ms: 1.785638
+  type: 'test'
+  ...
+# Subtest: Modelo geométrico íntegro
+ok 7 - Modelo geométrico íntegro
+  ---
+  duration_ms: 4.366476
+  type: 'test'
+  ...
+# Subtest: A1/A2 y 67 espacios
+ok 8 - A1/A2 y 67 espacios
+  ---
+  duration_ms: 0.24253
+  type: 'test'
+  ...
+# Subtest: A117 y A218 son las puertas verificadas
+ok 9 - A117 y A218 son las puertas verificadas
+  ---
+  duration_ms: 0.144464
+  type: 'test'
+  ...
+# Subtest: 5 rutas por S1/S3/S4/AS1/AS2
+ok 10 - 5 rutas por S1/S3/S4/AS1/AS2
+  ---
+  duration_ms: 13.76114
+  type: 'test'
+  ...
+# Subtest: Sin escalones: solamente ascensores
+ok 11 - Sin escalones: solamente ascensores
+  ---
+  duration_ms: 8.766573
+  type: 'test'
+  ...
+# Subtest: S3 pasa por escalera con descanso
+ok 12 - S3 pasa por escalera con descanso
+  ---
+  duration_ms: 10.457785
+  type: 'test'
+  ...
+# Subtest: Ruta inversa vuelve a A117
+ok 13 - Ruta inversa vuelve a A117
+  ---
+  duration_ms: 9.955281
+  type: 'test'
+  ...
+# Subtest: A222 tiene puerta asignada en JSON del usuario
+ok 14 - A222 tiene puerta asignada en JSON del usuario
+  ---
+  duration_ms: 13.773975
+  type: 'test'
+  ...
+# Subtest: Asignaciones vigentes
+ok 15 - Asignaciones vigentes
+  ---
+  duration_ms: 0.48515
+  type: 'test'
+  ...
+# Subtest: Correcciones de catálogo y puertas confirmadas
+ok 16 - Correcciones de catálogo y puertas confirmadas
+  ---
+  duration_ms: 0.61378
+  type: 'test'
+  ...
+# Subtest: Las tres puertas nuevas permiten ruta y A126 no inventa una
+ok 17 - Las tres puertas nuevas permiten ruta y A126 no inventa una
+  ---
+  duration_ms: 1.553715
+  type: 'test'
+  ...
+# Subtest: S2 ausente de conectores verticales
+ok 18 - S2 ausente de conectores verticales
+  ---
+  duration_ms: 0.184484
+  type: 'test'
+  ...
+# Subtest: JSON editado, topología y asignaciones importadas sin pérdida
+ok 19 - JSON editado, topología y asignaciones importadas sin pérdida
+  ---
+  duration_ms: 5.34007
+  type: 'test'
+  ...
+# Subtest: Coordenadas normalizadas sincronizadas con nodos editados
+ok 20 - Coordenadas normalizadas sincronizadas con nodos editados
+  ---
+  duration_ms: 0.386994
+  type: 'test'
+  ...
+# Subtest: Candidatos sin puerta: solo extremos libres, no cruces ni conectores
+ok 21 - Candidatos sin puerta: solo extremos libres, no cruces ni conectores
+  ---
+  duration_ms: 2.554349
+  type: 'test'
+  ...
+# Subtest: Rutas a nuevos destinos del JSON y caso de prueba original
+ok 22 - Rutas a nuevos destinos del JSON y caso de prueba original
+  ---
+  duration_ms: 64.158473
+  type: 'test'
+  ...
+# Subtest: JSON más reciente aporta 27 puertas y preserva separación por planta
+ok 23 - JSON más reciente aporta 27 puertas y preserva separación por planta
+  ---
+  duration_ms: 5.676909
+  type: 'test'
+  ...
+# Subtest: vincular puerta nueva la añade a la lista y desvincularla la quita; deshacer restaura
+ok 24 - vincular puerta nueva la añade a la lista y desvincularla la quita; deshacer restaura
+  ---
+  duration_ms: 6.134683
+  type: 'test'
+  ...
+# Subtest: nodo inexistente o en otra planta no aparece en las listas aunque haya una asociación
+ok 25 - nodo inexistente o en otra planta no aparece en las listas aunque haya una asociación
+  ---
+  duration_ms: 1.087823
+  type: 'test'
+  ...
+# Subtest: coordenadas normalizadas y distancias derivadas concuerdan con 9 movimientos
+ok 26 - coordenadas normalizadas y distancias derivadas concuerdan con 9 movimientos
+  ---
+  duration_ms: 0.628792
+  type: 'test'
+  ...
+# Subtest: Pausar y reanudar no reinicia la lectura
+ok 27 - Pausar y reanudar no reinicia la lectura
+  ---
+  duration_ms: 1.340468
+  type: 'test'
+  ...
+# Subtest: Detener funciona estando en pausa y cancela la lectura
+ok 28 - Detener funciona estando en pausa y cancela la lectura
+  ---
+  duration_ms: 0.162631
+  type: 'test'
+  ...
+# Subtest: Un onend tardío de la lectura anterior no interrumpe la siguiente
+ok 29 - Un onend tardío de la lectura anterior no interrumpe la siguiente
+  ---
+  duration_ms: 0.152036
+  type: 'test'
+  ...
+# Subtest: Evento onstart retrasado no reanuda una lectura pausada
+ok 30 - Evento onstart retrasado no reanuda una lectura pausada
+  ---
+  duration_ms: 0.176902
+  type: 'test'
+  ...
+# Subtest: Si el navegador no soporta voces, se deshabilita lectura
+ok 31 - Si el navegador no soporta voces, se deshabilita lectura
+  ---
+  duration_ms: 0.115561
+  type: 'test'
+  ...
+# Subtest: Error de síntesis libera el estado sin bloquear controles
+ok 32 - Error de síntesis libera el estado sin bloquear controles
+  ---
+  duration_ms: 0.12138
+  type: 'test'
+  ...
+1..32
+# tests 32
+# suites 0
+# pass 32
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 243.509811

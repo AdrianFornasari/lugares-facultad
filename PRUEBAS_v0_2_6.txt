@@ -1,0 +1,9 @@
+Navegador FCM v0.2.6 — 19/10/2026
+- 32 pruebas del motor y edición: 32 aprobadas.
+- Verificación de navegador Chromium (360/390 px): 62 opciones en Origen y Destino.
+- Al crear una asociación de A129: 63 opciones, revertir: 62, sin recarga.
+- Prueba visual de escritorio: 62 opciones.
+- Sin errores de JavaScript en prueba aislada con recursos locales.
+- No se ejecutó `npm run build` de React/Vite (sin dependencias instaladas).
+- No se probaron dispositivos físicos; comportamiento de voz sujeto a navegador.
+- Distancias en puntos PDF; rutas experimentales y sin validación de campo.

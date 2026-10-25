@@ -1,0 +1,19 @@
+{
+  "version": "0.2.3",
+  "source": "FCM_grafo_editado.json",
+  "moved_nodes_normalized": [
+    "A2-N036",
+    "A2-N091",
+    "A2-N092",
+    "A2-N094",
+    "A2-N098"
+  ],
+  "user_door_assignments": {
+    "A201": "A2-N098",
+    "A202": "A2-N106",
+    "A203": "A2-N092",
+    "A204": "A2-N094",
+    "A206": "A2-N091",
+    "A222": "A2-N036"
+  }
+}

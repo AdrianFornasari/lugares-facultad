@@ -1,0 +1,11 @@
+NAVEGADOR FCM v0.2.1 — PRUEBAS EJECUTADAS
+
+12 de 12 pruebas del motor de rutas: correctas (Node.js).
+Servidor HTTP: inicia correctamente con el puerto alternativo cuando 5173 esta ocupado. Se verifico respuesta 200 HTTP en el puerto seleccionado.
+Interfaz movil 390x844: Origen/Destino → Alternativas → Indicaciones → Plano.
+Escritorio 1280x900: conserva panel lateral izquierdo y mapa a la derecha.
+Modo administrador en movil: nodo seleccionado resaltado y zoom + hasta 150% en prueba automatizada.
+No se alteraron la topologia, las rutas ni los datos de las 67 ubicaciones.
+
+LIMITACIONES
+La prueba de interfaz fue con carga aislada de archivos en Chromium debido a restricciones del navegador automatizado de este entorno para conexiones HTTP locales. El servidor se probo aparte mediante HTTP real. No se verifico el archivo .bat directamente en Windows y no se garantiza que todas las configuraciones de firewall permitan el puerto alternativo. React/Vite requiere npm install en la PC.

@@ -1,0 +1,17 @@
+Navegador FCM v0.2 — Resultado de pruebas
+
+Modelo geométrico: v0.6 (sin cambios de topología).
+Catálogo: 67 espacios (A1=29, A2=38).
+Pruebas Node: 12/12 superadas.
+Pruebas Chromium móvil (390x844) y escritorio (1280x900), modo DOM autónomo con recursos embebidos:
+- Aplicación y catálogo cargan sin errores.
+- Cinco rutas experimentales A117-A218 siguen disponibles.
+- Zoom +, reset, zoom al nodo 300%.
+- Nodo seleccionado resaltado e intermitente.
+- Arrastre de nodo actualiza coordenadas.
+- Pinza de dos dedos aumenta el zoom en modo administrador.
+- Destinos baños y A124 generan rutas sobre grafo.
+- A126 sin puerta no genera ruta.
+- No se detectaron excepciones JavaScript en las interacciones probadas.
+
+AVISO: pruebas de interacción en entorno aislado con recursos embebidos, no validación física de los itinerarios. Compilación React/Vite pendiente de npm install en PC.

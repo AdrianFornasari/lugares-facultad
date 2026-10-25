@@ -1,0 +1,274 @@
+TAP version 13
+# Subtest: progreso por planta conserva las asignaciones confirmadas y excluye A223/A225
+ok 1 - progreso por planta conserva las asignaciones confirmadas y excluye A223/A225
+  ---
+  duration_ms: 9.281523
+  type: 'test'
+  ...
+# Subtest: asignación verificada, progreso y deshacer preservan las rutas
+ok 2 - asignación verificada, progreso y deshacer preservan las rutas
+  ---
+  duration_ms: 22.008056
+  type: 'test'
+  ...
+# Subtest: asignación sin casilla no se declara verificada
+ok 3 - asignación sin casilla no se declara verificada
+  ---
+  duration_ms: 2.960605
+  type: 'test'
+  ...
+# Subtest: rechaza doble vínculo, planta incorrecta, cruces y códigos sin asignación
+ok 4 - rechaza doble vínculo, planta incorrecta, cruces y códigos sin asignación
+  ---
+  duration_ms: 2.36307
+  type: 'test'
+  ...
+# Subtest: desvincular y deshacer restaura exactamente los datos previos
+ok 5 - desvincular y deshacer restaura exactamente los datos previos
+  ---
+  duration_ms: 1.787974
+  type: 'test'
+  ...
+# Subtest: ediciones del usuario se conservan y el ZIP no debe tocar la geometría
+ok 6 - ediciones del usuario se conservan y el ZIP no debe tocar la geometría
+  ---
+  duration_ms: 2.921832
+  type: 'test'
+  ...
+# Subtest: buscador incluye solo las 62 puertas asociadas
+ok 7 - buscador incluye solo las 62 puertas asociadas
+  ---
+  duration_ms: 13.419698
+  type: 'test'
+  ...
+# Subtest: buscador tolera tildes, mayúsculas y fragmentos del nombre
+ok 8 - buscador tolera tildes, mayúsculas y fragmentos del nombre
+  ---
+  duration_ms: 1.257354
+  type: 'test'
+  ...
+# Subtest: buscador responde a la asignación y deshacer una puerta en vivo
+ok 9 - buscador responde a la asignación y deshacer una puerta en vivo
+  ---
+  duration_ms: 3.912073
+  type: 'test'
+  ...
+# Subtest: guía manual conserva el itinerario completo y sus instrucciones sin inventar giros
+ok 10 - guía manual conserva el itinerario completo y sus instrucciones sin inventar giros
+  ---
+  duration_ms: 16.876015
+  type: 'test'
+  ...
+# Subtest: A1 y A2 se muestran como planta baja y primer piso sin abreviaturas de planta
+ok 11 - A1 y A2 se muestran como planta baja y primer piso sin abreviaturas de planta
+  ---
+  duration_ms: 10.160247
+  type: 'test'
+  ...
+# Subtest: La escalera S3 se expresa como escalera 3 con descanso y ramas
+ok 12 - La escalera S3 se expresa como escalera 3 con descanso y ramas
+  ---
+  duration_ms: 5.962533
+  type: 'test'
+  ...
+# Subtest: En la ruta inversa S3 se incluyen los escalones al descanso
+ok 13 - En la ruta inversa S3 se incluyen los escalones al descanso
+  ---
+  duration_ms: 7.548212
+  type: 'test'
+  ...
+# Subtest: AS1/AS2 se denominan ascensor 1/2, en ambos sentidos
+ok 14 - AS1/AS2 se denominan ascensor 1/2, en ambos sentidos
+  ---
+  duration_ms: 21.425459
+  type: 'test'
+  ...
+# Subtest: Las otras escaleras se denominan escalera 1 y 4
+ok 15 - Las otras escaleras se denominan escalera 1 y 4
+  ---
+  duration_ms: 8.393545
+  type: 'test'
+  ...
+# Subtest: Misma planta también se presenta sin código de planta
+ok 16 - Misma planta también se presenta sin código de planta
+  ---
+  duration_ms: 0.328525
+  type: 'test'
+  ...
+# Subtest: Los identificadores internos se mantienen sin modificar
+ok 17 - Los identificadores internos se mantienen sin modificar
+  ---
+  duration_ms: 0.247943
+  type: 'test'
+  ...
+# Subtest: Gramática del español en los cinco conectores y ambas direcciones
+ok 18 - Gramática del español en los cinco conectores y ambas direcciones
+  ---
+  duration_ms: 9.00685
+  type: 'test'
+  ...
+# Subtest: Modelo geométrico íntegro
+ok 19 - Modelo geométrico íntegro
+  ---
+  duration_ms: 2.711776
+  type: 'test'
+  ...
+# Subtest: A1/A2 y 67 espacios
+ok 20 - A1/A2 y 67 espacios
+  ---
+  duration_ms: 0.183857
+  type: 'test'
+  ...
+# Subtest: A117 y A218 son las puertas verificadas
+ok 21 - A117 y A218 son las puertas verificadas
+  ---
+  duration_ms: 0.115033
+  type: 'test'
+  ...
+# Subtest: 5 rutas por S1/S3/S4/AS1/AS2
+ok 22 - 5 rutas por S1/S3/S4/AS1/AS2
+  ---
+  duration_ms: 8.956533
+  type: 'test'
+  ...
+# Subtest: Sin escalones: solamente ascensores
+ok 23 - Sin escalones: solamente ascensores
+  ---
+  duration_ms: 2.656892
+  type: 'test'
+  ...
+# Subtest: S3 pasa por escalera con descanso
+ok 24 - S3 pasa por escalera con descanso
+  ---
+  duration_ms: 6.204168
+  type: 'test'
+  ...
+# Subtest: Ruta inversa vuelve a A117
+ok 25 - Ruta inversa vuelve a A117
+  ---
+  duration_ms: 6.050835
+  type: 'test'
+  ...
+# Subtest: A222 tiene puerta asignada en JSON del usuario
+ok 26 - A222 tiene puerta asignada en JSON del usuario
+  ---
+  duration_ms: 4.952922
+  type: 'test'
+  ...
+# Subtest: Asignaciones vigentes
+ok 27 - Asignaciones vigentes
+  ---
+  duration_ms: 0.304959
+  type: 'test'
+  ...
+# Subtest: Correcciones de catálogo y puertas confirmadas
+ok 28 - Correcciones de catálogo y puertas confirmadas
+  ---
+  duration_ms: 0.347354
+  type: 'test'
+  ...
+# Subtest: Las puertas nuevas y A126 vinculado permiten rutas
+ok 29 - Las puertas nuevas y A126 vinculado permiten rutas
+  ---
+  duration_ms: 1.589214
+  type: 'test'
+  ...
+# Subtest: S2 ausente de conectores verticales
+ok 30 - S2 ausente de conectores verticales
+  ---
+  duration_ms: 0.098459
+  type: 'test'
+  ...
+# Subtest: JSON editado, topología y asignaciones importadas sin pérdida
+ok 31 - JSON editado, topología y asignaciones importadas sin pérdida
+  ---
+  duration_ms: 2.354737
+  type: 'test'
+  ...
+# Subtest: Coordenadas normalizadas sincronizadas con nodos editados
+ok 32 - Coordenadas normalizadas sincronizadas con nodos editados
+  ---
+  duration_ms: 0.348646
+  type: 'test'
+  ...
+# Subtest: Candidatos sin puerta: solo extremos libres, no cruces ni conectores
+ok 33 - Candidatos sin puerta: solo extremos libres, no cruces ni conectores
+  ---
+  duration_ms: 2.322419
+  type: 'test'
+  ...
+# Subtest: Rutas a nuevos destinos del JSON y caso de prueba original
+ok 34 - Rutas a nuevos destinos del JSON y caso de prueba original
+  ---
+  duration_ms: 55.647381
+  type: 'test'
+  ...
+# Subtest: JSON (2): 62 destinos con puertas válidas A1=28 y A2=34
+ok 35 - JSON (2): 62 destinos con puertas válidas A1=28 y A2=34
+  ---
+  duration_ms: 5.641309
+  type: 'test'
+  ...
+# Subtest: las listas responden al alta/baja y deshacer una puerta
+ok 36 - las listas responden al alta/baja y deshacer una puerta
+  ---
+  duration_ms: 7.207848
+  type: 'test'
+  ...
+# Subtest: 18 movimientos sincronizados y 209 tramos métricamente consistentes con PDF
+ok 37 - 18 movimientos sincronizados y 209 tramos métricamente consistentes con PDF
+  ---
+  duration_ms: 0.687265
+  type: 'test'
+  ...
+# Subtest: cinco rutas entre A117 y A218, accesible solo mediante AS1 y AS2
+ok 38 - cinco rutas entre A117 y A218, accesible solo mediante AS1 y AS2
+  ---
+  duration_ms: 14.754169
+  type: 'test'
+  ...
+# Subtest: Pausar y reanudar no reinicia la lectura
+ok 39 - Pausar y reanudar no reinicia la lectura
+  ---
+  duration_ms: 1.717918
+  type: 'test'
+  ...
+# Subtest: Detener funciona estando en pausa y cancela la lectura
+ok 40 - Detener funciona estando en pausa y cancela la lectura
+  ---
+  duration_ms: 0.23201
+  type: 'test'
+  ...
+# Subtest: Un onend tardío de la lectura anterior no interrumpe la siguiente
+ok 41 - Un onend tardío de la lectura anterior no interrumpe la siguiente
+  ---
+  duration_ms: 0.195244
+  type: 'test'
+  ...
+# Subtest: Evento onstart retrasado no reanuda una lectura pausada
+ok 42 - Evento onstart retrasado no reanuda una lectura pausada
+  ---
+  duration_ms: 0.136626
+  type: 'test'
+  ...
+# Subtest: Si el navegador no soporta voces, se deshabilita lectura
+ok 43 - Si el navegador no soporta voces, se deshabilita lectura
+  ---
+  duration_ms: 0.105279
+  type: 'test'
+  ...
+# Subtest: Error de síntesis libera el estado sin bloquear controles
+ok 44 - Error de síntesis libera el estado sin bloquear controles
+  ---
+  duration_ms: 0.116385
+  type: 'test'
+  ...
+1..44
+# tests 44
+# suites 0
+# pass 44
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 293.162843

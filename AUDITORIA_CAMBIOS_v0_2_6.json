@@ -1,0 +1,286 @@
+{
+  "prototype_version": "0.2.6",
+  "source_file": "FCM_grafo_editado(2).json",
+  "source_sha256": "260c9ca937bd4e40e96f1388ab31d3a2c95a18f9c17081c87f649112c0ba0453",
+  "moved_nodes": [
+    {
+      "floor": "A1",
+      "node": "A1-N005",
+      "before": [
+        330,
+        276.5
+      ],
+      "after": [
+        350.36,
+        275.49
+      ],
+      "distance_pdf_pt": 20.385
+    },
+    {
+      "floor": "A1",
+      "node": "A1-N007",
+      "before": [
+        410.2,
+        279.3
+      ],
+      "after": [
+        396.55,
+        277.64
+      ],
+      "distance_pdf_pt": 13.751
+    },
+    {
+      "floor": "A1",
+      "node": "A1-N010",
+      "before": [
+        325.9,
+        333.2
+      ],
+      "after": [
+        351.55,
+        334.11
+      ],
+      "distance_pdf_pt": 25.666
+    },
+    {
+      "floor": "A1",
+      "node": "A1-N021",
+      "before": [
+        411.3,
+        502
+      ],
+      "after": [
+        389.44,
+        501.77
+      ],
+      "distance_pdf_pt": 21.861
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N010",
+      "before": [
+        432.3,
+        183.7
+      ],
+      "after": [
+        440.95,
+        183.95
+      ],
+      "distance_pdf_pt": 8.654
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N012",
+      "before": [
+        491.9,
+        199.4
+      ],
+      "after": [
+        485.95,
+        196.79
+      ],
+      "distance_pdf_pt": 6.497
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N023",
+      "before": [
+        504.7,
+        385.4
+      ],
+      "after": [
+        496.02,
+        386.7
+      ],
+      "distance_pdf_pt": 8.777
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N027",
+      "before": [
+        423.2,
+        473.3
+      ],
+      "after": [
+        423.78,
+        475.54
+      ],
+      "distance_pdf_pt": 2.314
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N034",
+      "before": [
+        528.9,
+        572.3
+      ],
+      "after": [
+        493.65,
+        571.8
+      ],
+      "distance_pdf_pt": 35.254
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N050",
+      "before": [
+        517.4,
+        813.7
+      ],
+      "after": [
+        514.38,
+        811.85
+      ],
+      "distance_pdf_pt": 3.542
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N052",
+      "before": [
+        511.8,
+        832.5
+      ],
+      "after": [
+        504.9,
+        830.87
+      ],
+      "distance_pdf_pt": 7.09
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N054",
+      "before": [
+        425.4,
+        858.3
+      ],
+      "after": [
+        439.18,
+        769.41
+      ],
+      "distance_pdf_pt": 89.952
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N056",
+      "before": [
+        510.5,
+        861.5
+      ],
+      "after": [
+        504.31,
+        859.7
+      ],
+      "distance_pdf_pt": 6.446
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N059",
+      "before": [
+        362.8,
+        926.6
+      ],
+      "after": [
+        391.22,
+        923.69
+      ],
+      "distance_pdf_pt": 28.569
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N061",
+      "before": [
+        505.9,
+        991
+      ],
+      "after": [
+        487.14,
+        992.52
+      ],
+      "distance_pdf_pt": 18.821
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N077",
+      "before": [
+        401.4,
+        1142.7
+      ],
+      "after": [
+        402.47,
+        1141.72
+      ],
+      "distance_pdf_pt": 1.451
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N080",
+      "before": [
+        508.3,
+        1158.9
+      ],
+      "after": [
+        494.24,
+        1160.53
+      ],
+      "distance_pdf_pt": 14.154
+    },
+    {
+      "floor": "A2",
+      "node": "A2-N084",
+      "before": [
+        497.7,
+        1209
+      ],
+      "after": [
+        494.84,
+        1211.43
+      ],
+      "distance_pdf_pt": 3.753
+    }
+  ],
+  "new_door_links": {
+    "A118": "A1-N047",
+    "A123": "A1-N033",
+    "A127": "A1-N021",
+    "A128": "A1-N005",
+    "A135": "A1-N009",
+    "A137": "A1-N007",
+    "A139": "A1-N002",
+    "A205": "A2-N089",
+    "A207": "A2-N084",
+    "A208": "A2-N086",
+    "A209": "A2-N083",
+    "A210": "A2-N077",
+    "A211": "A2-N080",
+    "A213": "A2-N061",
+    "A214": "A2-N059",
+    "A215": "A2-N056",
+    "A216": "A2-N054",
+    "A217": "A2-N052",
+    "A219": "A2-N042",
+    "A220": "A2-N039",
+    "A221": "A2-N034",
+    "A227": "A2-N028",
+    "A228": "A2-N024",
+    "A229": "A2-N026",
+    "A230": "A2-N021",
+    "A231": "A2-N023",
+    "A233": "A2-N020",
+    "A234": "A2-N015",
+    "A235": "A2-N016",
+    "A236": "A2-N010",
+    "A237": "A2-N013",
+    "A239": "A2-N012",
+    "A241": "A2-N008",
+    "A243": "A2-N002",
+    "A126": "A1-N010"
+  },
+  "door_links_preserved": 27,
+  "public_selectable_count": 62,
+  "by_floor": {
+    "A1": 28,
+    "A2": 34
+  },
+  "topology_changed": false,
+  "note": "Los cambios geométricos son del usuario y no verifican por sí solos el itinerario real. El nodo A2-N054 requiere revisión visual por gran desplazamiento."
+}

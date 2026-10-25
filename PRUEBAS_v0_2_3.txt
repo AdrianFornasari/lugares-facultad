@@ -1,0 +1,18 @@
+Prototipo Navegador FCM v0.2.3 — verificación 19/10/2026
+
+Motor y voz: 22/22 pruebas automáticas correctas (node --test).
+Validación de sintaxis: app.js, engine.js, voice.js sin errores (node --check).
+Interfaz Chromium, carga aislada de recursos: 390 x 844, 360 x 780 y escritorio 1280 x 900.
+- Inicio móvil: preferencias y plano plegados, indicaciones visibles.
+- Leer, Pausar, Reanudar, Detener: simulador de SpeechSynthesis; 1 llamada speak al pausar/reanudar.
+- Cambio de alternativa detiene la lectura; nueva puerta A222 ofrece ruta.
+- Administrador: 40 nodos amarillos A1 y 41 A2.
+- Puerta A222 ligada A2-N036 mostrada en verde.
+- Filtro de extremos pendientes y botón de zoom probados.
+- Sin errores Javascript en Chromium aislado.
+
+Limitaciones:
+- No se comprobó síntesis real en teléfono físico; depende de voz y navegador disponibles.
+- No se compiló Vite mediante npm install/build en este entorno.
+- La carga aislada no verifica el archivo BAT ni la conectividad real desde otros dispositivos.
+- Las rutas siguen siendo experimentales y el plano NO está a escala.
